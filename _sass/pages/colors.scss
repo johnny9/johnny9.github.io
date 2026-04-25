@@ -1,0 +1,224 @@
+
+.page.-colors {
+    article {
+        .theme-toggle {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            button {
+                appearance: none;
+                background-color: transparent;
+                border-width: 0;
+                color: var(--neutral-7);
+
+                &:hover {
+                    color: var(--primary);
+                }
+
+                &.-active {
+                    font-weight: 500;
+                    color: var(--primary);
+                }
+            }
+        }
+
+        .swatches {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 20px;
+
+            li {
+                display: flex;
+                flex-grow: 1;
+                flex-wrap: wrap;
+                align-items: center;
+
+                div {
+                    &:nth-child(1) {
+                        height: 100px;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                        transition: background-color 150ms $ease;
+
+                        &.-orange { background-color: var(--orange); }
+                        &.-orange-light-1 { background-color: var(--orange-light-1); }
+                        &.-orange-light-2 { background-color: var(--orange-light-2); }
+                        &.-red { background-color: var(--red); }
+                        &.-green { background-color: var(--green); }
+                        &.-blue { background-color: var(--blue); }
+                        &.-purple { background-color: var(--purple); }
+
+                        &.-neutral-9 { background-color: var(--neutral-9); }
+                        &.-neutral-8 { background-color: var(--neutral-8); }
+                        &.-neutral-7 { background-color: var(--neutral-7); }
+                        &.-neutral-6 { background-color: var(--neutral-6); }
+                        &.-neutral-5 { background-color: var(--neutral-5); }
+                        &.-neutral-4 { background-color: var(--neutral-4); }
+                        &.-neutral-3 { background-color: var(--neutral-3); }
+                        &.-neutral-2 { background-color: var(--neutral-2); }
+                        &.-neutral-1 { background-color: var(--neutral-1); }
+                        &.-neutral-0 { background-color: var(--neutral-0); }
+
+                        &.-confirmations-1 { background-color: var(--confirmations-1); }
+                        &.-confirmations-2 { background-color: var(--confirmations-2); }
+                        &.-confirmations-3 { background-color: var(--confirmations-3); }
+                        &.-confirmations-4 { background-color: var(--confirmations-4); }
+                        &.-confirmations-5 { background-color: var(--confirmations-5); }
+                        &.-confirmations-6 { background-color: var(--confirmations-6); }
+
+                        &.-green-red-1 { background-color: var(--green-red-1); }
+                        &.-green-red-2 { background-color: var(--green-red-2); }
+                        &.-green-red-3 { background-color: var(--green-red-3); }
+                        &.-green-red-4 { background-color: var(--green-red-4); }
+                        &.-green-red-5 { background-color: var(--green-red-5); }
+                        &.-green-red-6 { background-color: var(--green-red-6); }
+                        &.-green-red-7 { background-color: var(--green-red-7); }
+                        &.-green-red-8 { background-color: var(--green-red-8); }
+                    }
+
+                    &:nth-child(2) {
+                        p {
+                            &:nth-child(1) {
+                                color: var(--neutral-9);   
+                            }
+
+                            &.-dark {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Two columns
+    @include media-query(small) {
+        article {
+            .swatches {
+                li {
+                    flex-basis: 40%;
+                }
+            }
+        }
+    }
+
+    // Three columns
+    @include media-query(medium-up) {
+        article {
+            .swatches {
+                li {
+                    flex-basis: 30%;
+
+                    // &:nth-child(1) { order: 1; }
+                    // &:nth-child(2) { order: 4; }
+                    // &:nth-child(3) { order: 7; }
+                    // &:nth-child(4) { order: 10; }
+                    // &:nth-child(5) { order: 13; }
+                    // &:nth-child(6) { order: 16; }
+                    // &:nth-child(7) { order: 19; }
+                    // &:nth-child(8) { order: 2; }
+                    // &:nth-child(9) { order: 5; }
+                    // &:nth-child(10) { order: 8; }
+                    // &:nth-child(11) { order: 11; }
+                    // &:nth-child(12) { order: 14; }
+                    // &:nth-child(13) { order: 3; }
+                    // &:nth-child(14) { order: 6; }
+                    // &:nth-child(15) { order: 9; }
+                    // &:nth-child(16) { order: 12; }
+                    // &:nth-child(17) { order: 15; }
+                    // &:nth-child(18) { order: 17; }
+                    // &:nth-child(19) { order: 18; }
+                    // &:nth-child(20) { order: 20; }
+                    // &:nth-child(21) { order: 21; }
+                }
+
+                &.-neutrals {
+                    li {
+                        &:nth-child(1) { order: 1; }
+                        &:nth-child(2) { order: 4; }
+                        &:nth-child(3) { order: 7; }
+                        &:nth-child(4) { order: 10; }
+                        &:nth-child(5) { order: 2; }
+                        &:nth-child(6) { order: 5; }
+                        &:nth-child(7) { order: 8; }
+                        &:nth-child(8) { order: 3; }
+                        &:nth-child(9) { order: 6; }
+                        &:nth-child(10) { order: 9; }
+                        &:nth-child(11) { order: 11; }
+                        &:nth-child(12) { order: 12; }
+                    }
+                }
+            }
+        }
+    }
+
+    // Horizontal swatch layout
+    @include media-query(large) {
+        article {
+            .swatches {
+                li {
+                    gap: 15px;
+
+                    div {
+                        &:nth-child(1) {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Vertical swatch layout
+    @include media-query(medium-down) {
+        article {
+            .swatches {
+                li {
+                    flex-direction: column;
+                    align-items: stretch;
+
+                    p {
+                        &:first-child {
+                            margin-top: 15px;
+                        }
+
+                        & + p {
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.-theme-dark {
+    .page.-colors {
+        article {
+            .swatches {
+                li {
+                    div {
+                        &:nth-child(2) {
+                            p {
+                                &.-light {
+                                    display: none;
+                                }
+
+                                &.-dark {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

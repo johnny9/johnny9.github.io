@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Weekly update: Jan 15-21"
-date:   2024-1-22 12:00:00 -0500
-categories: update
----
-
-
-

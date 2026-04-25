@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.DS_Store
+pages/.obsidian/core-plugins.json
+pages/.obsidian/core-plugins-migration.json
+pages/.obsidian/appearance.json
+pages/.obsidian/app.json
+pages/.obsidian/workspace.json

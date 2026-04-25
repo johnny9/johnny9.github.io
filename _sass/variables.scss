@@ -1,0 +1,122 @@
+
+// For media queries.
+$small_width:               640px;
+$large_width:               1024px;
+$huge_width:               1281px;
+
+$fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+:root {
+	--back: 255, 255, 255;
+	--front: 0, 0, 0;
+
+	--back-r: 255;
+	--back-g: 255;
+	--back-b: 255;
+
+	--front-r: 0;
+	--front-g: 0;
+	--front-b: 0;
+
+	--backHex: #FFFFFF;
+	--frontHex: #000000;
+
+	--orange: #F7931A;
+	--orange-light-1: #FFAD4A;
+	--orange-light-2: #FFBF72;
+	--red: #EB5757;
+	--green: #27AE60;
+	--blue: #2D9CDB;
+	--purple: #BB6BD9;
+
+	--neutral-0: #FFFFFF;
+	--neutral-1: #F8F8F8;
+	--neutral-2: #F4F4F4;
+	--neutral-3: #EDEDED;
+	--neutral-4: #DEDEDE;
+	--neutral-5: #BBBBBB;
+	--neutral-6: #999999;
+	--neutral-7: #777777;
+	--neutral-8: #404040;
+	--neutral-9: #000000;
+	--neutral-9-rgb: 0, 0, 0;
+
+	--confirmations-1: #FF1C1C;
+	--confirmations-2: #ED6E46;
+	--confirmations-3: #EE8847;
+	--confirmations-4: #EFA148;
+	--confirmations-5: #F0BB49;
+	--confirmations-6: #F1D54A;
+
+	--green-red-1: #3DA45F;
+	--green-red-2: #529B5E;
+	--green-red-3: #68915D;
+	--green-red-4: #7D885C;
+	--green-red-5: #937E5B;
+	--green-red-6: #A8755A;
+	--green-red-7: #BE6B59;
+	--green-red-8: #D36158;
+
+	--primary: #F7931A;
+}
+
+.-theme-dark {
+	--back: 0, 0, 0;
+	--front: 255, 255, 255;
+
+	--back-r: 0;
+	--back-g: 0;
+	--back-b: 0;
+
+	--front-r: 255;
+	--front-g: 255;
+	--front-b: 255;
+
+	--backHex: #000000;
+	--frontHex: #FFFFFF;
+
+	--orange: #F89B2A;
+	--orange-light-1: #FFAD4A;
+	--orange-light-2: #FFBF72;
+	--red: #EC6363;
+	--green: #36B46B;
+	--blue: #3CA3DE;
+	--purple: #C075DC;
+
+	--neutral-0: #000000;
+	--neutral-1: #1A1A1A;
+	--neutral-2: #2D2D2D;
+	--neutral-3: #444444;
+	--neutral-4: #5C5C5C;
+	--neutral-5: #787878;
+	--neutral-6: #949494;
+	--neutral-7: #B0B0B0;
+	--neutral-8: #CCCCCC;
+	--neutral-9: #FFFFFF;
+	--neutral-9-rgb: 255, 255, 255;
+
+	--confirmations-1: #FF1C1C;
+	--confirmations-2: #ED6E46;
+	--confirmations-3: #EE8847;
+	--confirmations-4: #EFA148;
+	--confirmations-5: #F0BB49;
+	--confirmations-6: #F1D54A;
+
+	--green-red-1: #4AAB6A;
+	--green-red-2: #5EA269;
+	--green-red-3: #729968;
+	--green-red-4: #869067;
+	--green-red-5: #9A8767;
+	--green-red-6: #AE7F66;
+	--green-red-7: #C27665;
+	--green-red-8: #D66D64;
+
+	--primary: #F89B2A;
+}
+
+/* Adjust colors here for more contrast */
+@media (prefers-contrast: more) {
+  .-theme-dark {
+
+  }
+}
