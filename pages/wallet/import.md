@@ -1,28 +1,28 @@
 ---
 layout: default
-title: 1.3 Import
-permalink: /milestones/1-3-import/
-nav_order: 130
-header: true
+title: Wallet import
+permalink: /wallet/import/
+nav_order: 42
+indent: true
 ---
 
-# Milestone 1.3: Wallet import
+# Wallet import
 
 **Status: Design concept done**
 
-The design direction and concepts are stable and have been reviewed. However, the design specs and documentation will be finalized in more detail when this milestone is ready to be picked up for development.
+Wallet import lets users add existing wallets from the onboarding flow, the wallet selector, or the app menu. The design direction and concepts are stable and will be refined as the preview documentation becomes more precise.
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/3), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13169&mode=design&t=sZSBHpOLLJmoMf57-1)_
+_[Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13169&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
 ## Overview
 
-After the global navigation is established in milestone 1.2, we now focus on importing and handling wallets.
+Wallet import covers selecting a wallet file, reviewing what will be imported, and handling migration or error states.
 
 {% include picture.html
-	image = "/assets/images/milestones/1-3-import.png"
-	retina = "/assets/images/milestones/1-3-import@2x.png"
-	big = "/assets/images/milestones/1-3-import-big.png"
-	alt-text = "A visual map of which screens will be added in the 1.2 milestone"
+	image = "/assets/images/feature-overview/1-3-import.png"
+	retina = "/assets/images/feature-overview/1-3-import@2x.png"
+	big = "/assets/images/feature-overview/1-3-import-big.png"
+	alt-text = "A visual map of the wallet import screens"
 	width = 800
 	height = 409
 %}
@@ -120,7 +120,4 @@ In all of these cases, we want to make sure that the application provides clear,
 3. What the user can do (remedy).
 
 More general guidelines for error handling can be found in the [Bitcoin Design Guide](https://bitcoin.design/guide/daily-spending-wallet/sending/#errors).
-
-
-
 

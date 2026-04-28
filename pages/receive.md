@@ -1,24 +1,24 @@
 ---
 layout: default
-title: 1.6 Receive
-permalink: /milestones/1-6-receive/
-nav_order: 160
-header: true
+title: Receive
+permalink: /receive/
+nav_order: 61
+indent: true
 ---
 
-# Milestone 1.6: Receive bitcoin
+# Receive bitcoin
 
 **Status: Complete**
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/6){:target="_blank"}, [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13172&mode=design&t=sZSBHpOLLJmoMf57-1){:target="_blank"}, [Prototype](https://lively-kashata-cfde7e.netlify.app/screen/receive){:target="_blank"}_
+_[Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13172&mode=design&t=sZSBHpOLLJmoMf57-1){:target="_blank"}, [Prototype](https://lively-kashata-cfde7e.netlify.app/screen/receive){:target="_blank"}_
 
-In this milestone we add features related to receiving.
+The receive flow helps users create payment requests, generate addresses, and review past requests.
 
 {% include picture.html
-	image = "/assets/images/milestones/1-6-receive.png"
-	retina = "/assets/images/milestones/1-6-receive@2x.png"
-	big = "/assets/images/milestones/1-6-receive-big.png"
-	alt-text = "A visual map of which screens will be added in the 1.5 milestone"
+	image = "/assets/images/feature-overview/1-6-receive.png"
+	retina = "/assets/images/feature-overview/1-6-receive@2x.png"
+	big = "/assets/images/feature-overview/1-6-receive-big.png"
+	alt-text = "A visual map of the receive screens"
 	width = 800
 	height = 409
 %}
@@ -107,7 +107,7 @@ The application treats payment requests as not-yet-completed transactions, which
 
 #### Request history
 
-All requests the user has created are visible in the [activity]({{ '/milestones/1-5-activity/' | relative_url }}) screen.
+All requests the user has created are visible in the [activity]({{ '/activity/' | relative_url }}) screen.
 
 There are several benefits to users when payment requests and transactions are well annotated:
 

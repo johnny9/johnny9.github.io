@@ -2,7 +2,8 @@
 layout: default
 title: Settings
 permalink: /settings/
-nav_order: 53
+nav_order: 81
+indent: true
 ---
 
 # Settings

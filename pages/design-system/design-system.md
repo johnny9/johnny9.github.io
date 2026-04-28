@@ -2,7 +2,7 @@
 layout: default
 title: Design system
 permalink: /design-system/
-nav_order: 4
+nav_order: 300
 header: true
 ---
 

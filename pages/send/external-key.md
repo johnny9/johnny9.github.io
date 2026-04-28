@@ -2,7 +2,7 @@
 layout: default
 title: External key
 permalink: /send/external-key/
-nav_order: 176
+nav_order: 69
 indent: true
 ---
 

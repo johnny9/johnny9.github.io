@@ -2,7 +2,7 @@
 layout: default
 title: Basic send flow
 permalink: /send/basic-flow/
-nav_order: 171
+nav_order: 63
 indent: true
 ---
 
@@ -78,7 +78,7 @@ To make it easier for users to fill out the form, the application automatically 
 
 #### Additional information
 
-Payment requests can contain additional information that the recipient wants the sender to know, such as a personal message or their name. Check out the [receive]({{ '/milestones/1-6-receive/' | relative_url }}) page for how this works.
+Payment requests can contain additional information that the recipient wants the sender to know, such as a personal message or their name. Check out the [receive]({{ '/receive/' | relative_url }}) page for how this works.
 
 If such information is present in the payment request, it is displayed at the top of the form. Note that the additional information will not be included in the transaction data.
 

@@ -2,7 +2,8 @@
 layout: default
 title: First use
 permalink: /first-use/
-nav_order: 51
+nav_order: 21
+indent: true
 ---
 
 # First use
@@ -55,7 +56,7 @@ Then the user decides where to keep downloaded data. They can easily choose desi
 	height = 418
 %}
 
-After that, user can continue to [create wallet]({{ '/milestones/1-4-create' | relative_url }}), where at the end of the process they begin initial block download. It's a time-consuming activity that users are typically not familiar with from other applications. The following screen ensures that they understand what will happen next, when they will navigate the application independently.
+After that, user can continue to [create wallet]({{ '/wallet/create/' | relative_url }}), where at the end of the process they begin initial block download. It's a time-consuming activity that users are typically not familiar with from other applications. The following screen ensures that they understand what will happen next, when they will navigate the application independently.
 
 Bandwidth may also be limited or expensive for the user, particularly on mobile. The initial block download is particularly problematic, so we may want to ensure that users are guided towards the best option. Also see [connection settings]({{ '/settings/connection/' | relative_url }}).
 

@@ -2,7 +2,7 @@
 layout: default
 title: Storage
 permalink: /settings/storage/
-nav_order: 55
+nav_order: 24
 indent: true
 ---
 
@@ -29,5 +29,3 @@ In the initial implementation, the data directory is not editable. This will be 
 	width = 800
 	height = 712
 %}
-
-

@@ -1,24 +1,20 @@
 ---
 layout: default
-title: 1.2 Navigation
-permalink: /milestones/1-2-navigation/
-nav_order: 120
-header: true
+title: Navigation
+permalink: /navigation/
+nav_order: 22
+indent: true
 ---
 
-# Milestone 1.2: Navigation
+# Navigation
 
 **Status: Complete**
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/2), [Code milestone](https://github.com/bitcoin-core/gui-qml/milestone/2), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13168&mode=design&t=sZSBHpOLLJmoMf57-1)_
+_[Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13168&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
-The application flow in Milestone 1 is very simple. After a mostly linear onboarding flow, the user lands on the block status. They can navigate into settings, and back.
+The application supports a responsive navigation model that works across the node-only and wallet-enabled experiences. After onboarding, users can move between block status, wallet activity, sending, receiving, and settings depending on the available features.
 
-In the future, the application will be more complex. There will be new distinct areas for viewing activity, sending, and receiving, each with sub-pages, nested user flows, modals, and more.
-
-Goal with this milestone is to restructure the application, focusing on navigation. We can add empty placedholders for all new screens, only containing essential navigation components.
-
-A central part of this will be the new navigation bars, which will differ in look and behavior across desktop and mobile.
+A central part of this is the navigation bars, which differ in look and behavior across desktop and mobile.
 
 One of the consideration is that the application can be built without wallet features, or a user may choose to only use the node features. In the first case, the UI will skip anything related to the wallet. In the second case, the node will be the primary focus point, with a subtle option to add a wallet.
 
@@ -112,7 +108,7 @@ Another aspect is to implement navigation and transition patterns that are intui
 	height = 827
 %}
 
-On desktop, users can also directly access various options through the application menu, which are slightly different across operating systems. Below is a first mock-up based on the existing QT application. We will refine these as we work through the remaining milestones as we detail the other features.
+On desktop, users can also directly access various options through the application menu, which are slightly different across operating systems. Below is a first mock-up based on the existing QT application. We will refine these as other feature areas are detailed.
 
 {% include picture.html
 	image = "/assets/images/nav/desktop-menu-options.png"

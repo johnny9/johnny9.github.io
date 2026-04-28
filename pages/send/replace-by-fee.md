@@ -2,7 +2,7 @@
 layout: default
 title: Speed up & cancel
 permalink: /send/replace-by-fee/
-nav_order: 172
+nav_order: 65
 indent: true
 ---
 

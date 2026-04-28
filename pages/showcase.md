@@ -2,7 +2,7 @@
 layout: default
 title: Showcase
 permalink: /showcase/
-nav_order: 206
+nav_order: 106
 indent: true
 ---
 

@@ -1,24 +1,24 @@
 ---
 layout: default
-title: 1.4 Create
-permalink: /milestones/1-4-create/
-nav_order: 140
-header: true
+title: Wallet creation
+permalink: /wallet/create/
+nav_order: 41
+indent: true
 ---
 
-# Milestone 1.4: Wallet creation
+# Wallet creation
 
 **Status: Early design exploration**
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/4), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13170&mode=design&t=sZSBHpOLLJmoMf57-1)_
+_[Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13170&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
-In this milestone, we add the wallet creation flow. This will only include single-key wallets, but the design and development process will consider and plan for more options in future milestones.
+Wallet creation guides users through setting up a new wallet. The current preview documentation focuses on single-key wallets, while more advanced wallet types remain part of [future work]({{ '/future-work/' | relative_url }}).
 
 {% include picture.html
-	image = "/assets/images/milestones/1-4-create.png"
-	retina = "/assets/images/milestones/1-4-create@2x.png"
-	big = "/assets/images/milestones/1-4-create-big.png"
-	alt-text = "A visual map of which screens will be added in the 1.4 milestone"
+	image = "/assets/images/feature-overview/1-4-create.png"
+	retina = "/assets/images/feature-overview/1-4-create@2x.png"
+	big = "/assets/images/feature-overview/1-4-create-big.png"
+	alt-text = "A visual map of the wallet creation screens"
 	width = 800
 	height = 409
 %}

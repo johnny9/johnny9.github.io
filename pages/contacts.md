@@ -2,7 +2,7 @@
 layout: default
 title: Contacts
 permalink: /contacts/
-nav_order: 182
+nav_order: 45
 indent: true
 ---
 

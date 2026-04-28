@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /settings/about/
-nav_order: 59
+nav_order: 83
 indent: true
 ---
 
@@ -18,5 +18,3 @@ Provides basic information about the application. [Developer options]({{ '/setti
 	width = 800
 	height = 491
 %}
-
-

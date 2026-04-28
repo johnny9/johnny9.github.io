@@ -2,7 +2,8 @@
 layout: default
 title: Principles
 permalink: /principles/
-nav_order: 5
+nav_order: 301
+indent: true
 ---
 
 # Principles

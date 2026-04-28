@@ -2,7 +2,7 @@
 layout: default
 title: Peers
 permalink: /settings/peers/
-nav_order: 57
+nav_order: 26
 indent: true
 ---
 

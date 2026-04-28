@@ -3,7 +3,8 @@ layout: default
 title: Research
 permalink: /research/
 classes: -research
-nav_order: 3
+nav_order: 203
+indent: true
 ---
 
 ## Introduction

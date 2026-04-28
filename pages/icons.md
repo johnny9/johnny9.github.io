@@ -2,7 +2,8 @@
 layout: default
 title: Icons
 permalink: /icons/
-nav_order: 8
+nav_order: 304
+indent: true
 ---
 
 # Icons

@@ -3,7 +3,8 @@ layout: default
 title: Colors
 permalink: /colors/
 classes: -colors
-nav_order: 6
+nav_order: 302
+indent: true
 ---
 
 # Colors

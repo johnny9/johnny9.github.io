@@ -2,7 +2,7 @@
 layout: default
 title: Snapshot
 permalink: /snapshot/
-nav_order: 201
+nav_order: 101
 indent: true
 ---
 
@@ -75,4 +75,4 @@ Snapshot files are created at certain points in time. The application source cod
 	height = 366
 %}
 
-Further designs are needed for the [send]({{ '/milestones/1-7-send/' | relative_url }}) flow. Users may need to be informed when including UTXOs in their transactions that have not been verified yet.
+Further designs are needed for the [send]({{ '/send/' | relative_url }}) flow. Users may need to be informed when including UTXOs in their transactions that have not been verified yet.

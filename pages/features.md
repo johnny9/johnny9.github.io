@@ -1,21 +1,19 @@
 ---
 layout: default
-title: Features
+title: Current feature set
 permalink: /features/
-nav_order: 1.5
+nav_order: 10
 ---
 
-# Planned features
+# Current feature set
 
-**This is a complete work-in-progress.**
+This page summarizes the app behavior documented for the current unsigned preview. Completion status is intentionally approximate while the preview release is being prepared, and the documentation will be tightened as testing feedback comes in.
 
-With the initial launch of this new application, we try to maintain feature parity with the QT application. Some options may be removed intentionally, and many options will be found in different places in the application. while also making improvements and creating space for new features and future improvements. On this page you can find a list of features supported across both versions of the client.
-
-The page is called "Planned features", since the new application is under heavy development. "Planned" can mean everything across the feature lifecycle, from early exploration of late development. As development continues, we may change the scope of this page.
+The goal is broad parity with the existing Qt application while improving the structure of common node and wallet workflows. Some options are intentionally organized differently in this app.
 
 ### General
 
-| Feature                                                    | App     | QT      |
+| Feature                                                    | App     | Qt      |
 | ---------------------------------------------------------- | ------- | ------- |
 | Android support                                            | ✓       | ✗       |
 | [Guided setup experience]({{ '/first-use/' | relative_url }}) | ✓       | ✗       |
@@ -23,21 +21,21 @@ The page is called "Planned features", since the new application is under heavy 
 
 ### Wallet management
 
-| Feature                                                    | App     | QT      |
+| Feature                                                    | App     | Qt      |
 | ---------------------------------------------------------- | ------- | ------- |
 | Wallet switching                                           | ✓       | ✓       |
-| [Activity]({{ '/milestones/1-5-activity/' | relative_url }}) | ✓       | ✓       |
-| [Create single-key wallets]({{ '/milestones/1-4-create/' | relative_url }}) | ✓       | ✓       |
-| Create multi-key wallets                                   | ✓       | ✗       |
+| [Activity]({{ '/activity/' | relative_url }})              | ✓       | ✓       |
+| [Create single-key wallets]({{ '/wallet/create/' | relative_url }}) | ✓       | ✓       |
+| Create multi-key wallets                                   | Future  | ✗       |
 | Descriptor wallets                                         | ✓       | ✓       |
 | Watch-only wallets                                         | ✓       | ✓       |
 | Wallet file backup                                         | ✓       | ✓       |
-| [Wallet file import]({{ '/milestones/1-3-import/' | relative_url }})  | ✓       | ✓       |
+| [Wallet file import]({{ '/wallet/import/' | relative_url }}) | ✓       | ✓       |
 | Password protection                                        | ✓       | ✓       |
 
-### [Sending]({{ '/milestones/1-7-send/' | relative_url }})
+### [Sending]({{ '/send/' | relative_url }})
 
-| Feature                                                    | App     | QT      |
+| Feature                                                    | App     | Qt      |
 | ---------------------------------------------------------- | ------- | ------- |
 | Transaction creation & broadcast                           | ✓       | ✓       |
 | "Send all" option                                          | ✓       | ✓       |
@@ -58,9 +56,9 @@ The page is called "Planned features", since the new application is under heavy 
 | External signer support via HWI                            | ✓       | ✓       |
 | Time locks                                                 | ✓       | ✗       |
 
-### [Receiving]({{ '/milestones/1-6-receive/' | relative_url }})
+### [Receiving]({{ '/receive/' | relative_url }})
 
-| Feature                                                    | App     | QT      |
+| Feature                                                    | App     | Qt      |
 | ---------------------------------------------------------- | ------- | ------- |
 | Address generation                                         | ✓       | ✓       |
 | List of generated wallet addresses                         | ✓       | ✓       |
@@ -69,15 +67,15 @@ The page is called "Planned features", since the new application is under heavy 
 | Payment request message                                    | ✓       | ✓       |
 | Share via QR code                                          | ✓       | ✓       |
 | Share via BIP-21 URI                                       | ✓       | ✓       |
-| Reusable addresses (Silent Payments)                       | ✓       | ✗       |
+| Reusable addresses (Silent Payments)                       | Future  | ✗       |
 
 ### Node management
 
-| Feature                                                                         | App     | QT      |
+| Feature                                                                         | App     | Qt      |
 | ------------------------------------------------------------------------------- | ------- | ------- |
 | [Block synchronization status]({{ '/block-status/' | relative_url }})            | ✓       | ✓       |
 | [Pruning]({{ '/settings/storage/' | relative_url }})                            | ✓       | ✓       |
-| [Snapshot creation & import]({{ '/snapshot/' | relative_url }}) (assumeUTXO)    | ✓       | ✗       |
+| [Snapshot creation & import]({{ '/snapshot/' | relative_url }}) (assumeUTXO)    | Future  | ✗       |
 | [Network settings]({{ '/settings/network/' | relative_url }})                   | ✓       | ✓       |
 | Test networks                                                                   | ✓       | ✓       |
 | [Peers screen]({{ '/settings/peers/' | relative_url }})                         | ✓       | ✓       |
@@ -86,10 +84,12 @@ The page is called "Planned features", since the new application is under heavy 
 
 The structure of the settings has changed quite a bit. Almost all settings are still available, but have been moved to different screens, typically to be available contextually. You can find a more detailed mapping in [this Google Sheet](https://docs.google.com/spreadsheets/d/1JyJDZBR-jyfXJgriTNiybVA1X4r0aK0Pc3D1LfVv_MA/edit?usp=sharing){:target="_blank"}.
 
-| Feature                                                              | App     | QT      |
+| Feature                                                              | App     | Qt      |
 | -------------------------------------------------------------------- | ------- | ------- |
 | [About screen]({{ '/settings/about/' | relative_url }})              | ✓       | ✓       |
 | [Display settings]({{ '/settings/display/' | relative_url }})        | ✓       | ✓       |
 | [Developer settings]({{ '/settings/developer/' | relative_url }})    | ✓       | ✗       |
 | [Console screen]({{ '/console/' | relative_url }})                   | ✓       | ✓       |
 | bitcoin.conf access                                                  | ✓       | ✓       |
+
+See [future work]({{ '/future-work/' | relative_url }}) for documented ideas that are not treated as part of the current preview.

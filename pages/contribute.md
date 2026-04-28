@@ -2,7 +2,8 @@
 layout: default
 title: Contribute
 permalink: /contribute/
-nav_order: 2
+nav_order: 202
+indent: true
 ---
 
 # Contribute

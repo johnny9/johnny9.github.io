@@ -2,7 +2,7 @@
 layout: default
 title: Network
 permalink: /settings/network/
-nav_order: 58
+nav_order: 27
 indent: true
 ---
 

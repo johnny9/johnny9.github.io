@@ -2,7 +2,8 @@
 layout: default
 title: Block status
 permalink: /block-status/
-nav_order: 52
+nav_order: 23
+indent: true
 ---
 
 # Block status

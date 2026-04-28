@@ -8,7 +8,7 @@
   </div>
 
   <nav id="site-nav-nav">
-    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Introduction</a>
+    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Preview</a>
 
     {%- assign section = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
     {%- assign section = 'pages' -%}

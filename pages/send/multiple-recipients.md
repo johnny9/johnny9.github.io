@@ -2,7 +2,7 @@
 layout: default
 title: Multiple recipients
 permalink: /send/multiple-recipients/
-nav_order: 174
+nav_order: 67
 indent: true
 ---
 

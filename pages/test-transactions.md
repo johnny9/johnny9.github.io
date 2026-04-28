@@ -2,7 +2,7 @@
 layout: default
 title: Test transactions
 permalink: /test-transactions/
-nav_order: 204
+nav_order: 104
 indent: true
 ---
 

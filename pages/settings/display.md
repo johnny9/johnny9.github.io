@@ -2,7 +2,7 @@
 layout: default
 title: Display
 permalink: /settings/display/
-nav_order: 54
+nav_order: 82
 indent: true
 ---
 

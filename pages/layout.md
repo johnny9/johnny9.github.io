@@ -2,7 +2,8 @@
 layout: default
 title: Layout
 permalink: /layout/
-nav_order: 10
+nav_order: 306
+indent: true
 ---
 
 # Layout

@@ -2,7 +2,7 @@
 layout: default
 title: Developer
 permalink: /settings/developer/
-nav_order: 60
+nav_order: 84
 indent: true
 ---
 
