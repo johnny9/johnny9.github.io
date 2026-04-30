@@ -9,7 +9,10 @@ classes: -home
 
 The Bitcoin Core App preview is ready for testing. These builds are unsigned CI artifacts, are intended for testing and feedback only, require a GitHub login to download, and should not be used with real funds.
 
-[Download unsigned preview build](https://github.com/bitcoin-core/gui-qml/actions/runs/15608620551){:target="_blank"}
+## Download builds
+
+- [macOS 14 preview build](https://github.com/johnny9/BitcoinCoreAppDevelopment/releases/download/latest/unsecure_macos-14_gui.zip){:target="_blank"} (`unsecure_macos-14_gui`)
+- [Ubuntu 24.04 preview build](https://github.com/johnny9/BitcoinCoreAppDevelopment/releases/download/latest/unsecure_ubuntu-24.04_gui.zip){:target="_blank"} (`unsecure_ubuntu-24.04_gui`)
 
 [Report feedback on GitHub Issues](https://github.com/bitcoin-core/gui-qml/issues){:target="_blank"}
 
@@ -37,8 +40,8 @@ The current preview includes the core app experience documented on this site: fi
 
 ## Download notes
 
-- Log in to GitHub before opening the preview build link.
-- Scroll down to the artifacts section and download the artifact for your operating system.
+- Log in to GitHub before opening a preview build link.
+- Download the artifact for your operating system.
 - Older Android devices may not allow you to install the application.
 - If the application crashes on start, check whether a `bitcoin.conf` file exists and whether all settings it contains are correct.
 - Pull requests may be set to signet while testing continues.
